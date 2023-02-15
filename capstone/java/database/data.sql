@@ -145,5 +145,7 @@ WHERE property_id = 9;
 
 
 
+
+
 COMMIT TRANSACTION;
 

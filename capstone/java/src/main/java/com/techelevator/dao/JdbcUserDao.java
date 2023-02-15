@@ -36,6 +36,8 @@ public class JdbcUserDao implements UserDao {
         return userId;
     }
 
+    //updated comment to secure final push
+
 	@Override
 	public User getUserById(int userId) {
 		String sql = "SELECT * FROM users WHERE user_id = ?";
